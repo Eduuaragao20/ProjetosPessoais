@@ -1,0 +1,68 @@
+.main-bg {
+    background-image: url('../img/fundo.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: var(--brown-color);
+}
+.brown-gb {
+    background: var(--brown-color);
+}
+
+.main-content {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 8rem var(--gap);
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.main-content .section {
+    padding-top: 0.5rem;
+}
+
+.menu-spacing {
+    height: 8.0rem;
+}
+
+.img-menu {
+    padding-top: 1rem;
+}
+
+.frase {
+    color: #20B2AA;
+    text-shadow: 0.2rem 0.2rem 0.5rem #7FFFF7;
+}
+
+.intro-img img {
+    width: 87vw;
+}
+
+.intro-text img {
+    width: 30vw;
+}
+
+.img-fundo {
+    background-image: url('../img/fundo3.jpg');
+}
+
+.img-marrom {
+    background-image: url('../img/fundo_marrom.jpg');
+}
+
+.full-width {
+    width: 100%;
+    flex: 1 1 100%;
+}
+
+#endereco {
+    font-size: 29.7px;
+    margin-bottom: 5px;
+}
+
+i {
+    align-items: left;
+    text-align: left;
+}
+
