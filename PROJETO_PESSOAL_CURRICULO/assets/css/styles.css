@@ -1,0 +1,92 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+}
+
+li {
+    padding: 1.5px;
+}
+
+.main-bg {
+    background-color: #33383dcb;
+}
+
+.foto {
+    border-radius: 50px ;
+    box-shadow: 5px 5px 5px 2px #778899;
+}
+
+.foto2 {
+    width: 100%;
+}
+.grid {
+    display: grid;
+    max-width: 1200px;
+    padding: 15px;
+    margin: 0px auto;
+}
+#certificados {
+    grid-template-columns: 1fr 1fr 
+}
+
+.grid div .dados-pessoais {
+    padding-top: 70px;
+}
+
+.grid div .formacao-academica {
+    padding-top: 70px;
+}
+
+.grid div .idiomas {
+    padding-top: 70px;
+}
+
+.grid div .conhecimento {
+    padding-top: 70px;
+}
+
+.grid div .contato {
+    padding-top: 70px;
+}
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.grid ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.grid .col-content {
+    width: 100%;
+    height: 100%;
+}
+
+
+.back-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    background: #B0C4DE;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: black;
+    transform: rotate(-90deg);
+}
+
+
